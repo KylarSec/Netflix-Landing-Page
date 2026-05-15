@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #000;
+  color: #fff;
+}
+
 .header {
   height: 100vh;
   width: 100%;
@@ -110,4 +115,47 @@
 
 .getStarted-section i {
   width: 10px;
+}
+
+.features {
+  border-top: 6px solid #333;
+  padding: 80px 10%;
+  font-size: 22px;
+}
+
+.features h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.features-content {
+  padding: 20px 12%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.features-content-text {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.features-content-img {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.features-content-img video {
+  display: block;
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.features-content-img img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  cursor: pointer;
 }
