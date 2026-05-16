@@ -159,3 +159,59 @@ body {
   margin: auto;
   cursor: pointer;
 }
+
+.faq {
+  padding: 10px 12%;
+  font-size: 18px;
+  border-top: 6px solid #333;
+  text-align: center;
+}
+.faq-list {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 900px;
+}
+.faq h2 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.faq li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.faq-list input[type="radio"] {
+  display: none;
+}
+
+.faq-list li label {
+  padding: 20px;
+  background: #303030;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+label::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 34px;
+}
+
+.faq-list .content {
+  max-height: 0;
+  background: #303030;
+  overflow: hidden;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.faq-list input[type="radio"]:checked + label + .content {
+  max-height: 600px;
+  padding: 30px 20px;
+}
