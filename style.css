@@ -228,3 +228,58 @@ label::after {
   max-height: 600px;
   padding: 30px 20px;
 }
+
+.footer {
+  padding: 50px 15% 10px 15%;
+  border-top: 6px solid #333;
+  color: #777;
+}
+
+.footer h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.footer .row .col {
+  margin-bottom: 20px;
+}
+.footer .row .col li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer .row .col li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #777;
+}
+
+.footer .row .col li a:hover {
+  text-decoration: underline;
+}
+
+.footer #lng-select {
+  border: 1px solid #b8b0b0;
+}
+
+.copyright-text {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+.developer {
+  text-align: center;
+  padding: 20px;
+}
+
+.developer p {
+  color: #b10808;
+  font-weight: bold;
+}
